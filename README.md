@@ -16,5 +16,5 @@ Start pyspark using a jupyter notebook environment. This should automatically op
 When you start a notebook from here, the spark context will be available in a variable `spark`.
 
 - `cd notebooks`
-- `SPARK_HOME="$(ls -d ../venv_spark_workshop/lib/python*)/site-packages/pyspark" PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark`
+- `SPARK_HOME="$(ls -d ../venv_spark_workshop/lib/python*)/site-packages/pyspark" HADOOP_CONF_DIR= PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark`
   - Note: if you have a spark already installed globally, do not set `SPARK_HOME` here
