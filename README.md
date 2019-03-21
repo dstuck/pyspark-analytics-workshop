@@ -6,7 +6,7 @@ Some helper code to get setup for a workshop on using
 ## Setup
 ### Create a virtualenv
 - `cd pyspark-analytics-workshop`
-- `virtualenv venv_spark_workshop`
+- `virtualenv -p python3 venv_spark_workshop`
 - `. venv_spark_workshop/bin/activate`
 - `pip install -r requirements.txt`
 - `ipython kernel install --user --name=pyspark-workshop`
